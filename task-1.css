@@ -1,0 +1,29 @@
+.task-1{
+    position: relative;
+    height: 12.5vh;
+    width: 100%;
+    background-color: #2C3E50;
+}
+.logo{
+    margin-top: 40px;
+    margin-left: 19vw;
+    float: left;
+    width: 46px;
+    font-size: 23.8;
+}
+.log{
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+    color: white;
+    margin-right: 6.3vw;
+}
+a{
+    font-family: "Lato";
+    font-weight: 900;
+    margin-top: 5.9vh;
+    text-decoration: none;
+    color: white;
+    margin-right: 1.9vw;
+    float: left;
+}
