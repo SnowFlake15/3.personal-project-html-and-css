@@ -8,14 +8,13 @@
 
   .task-2 {
       background-color: #2C3E50;
-      height: 87.5vh;
+      height: 788px;
       width: 100%;
   }
   
-  .caption {
-      
-      display: flex;
-      flex-direction: column;
+   .caption {
+        display: flex;
+        flex-direction: column;
         position: absolute;
         left: 51.4%;
         top: 15%;
@@ -25,8 +24,7 @@
         color: white;
         font-family: 'Lato', sans-serif;
         font-size: 36;
-        
-
+        font-weight: 300;
   }
   .cap2{
       margin-top: -47px;
@@ -61,7 +59,14 @@
         margin-left: 15px;
         line-height: 30px;
     }
-
+.butleft:hover{
+    background-color: white;
+    color: #2C3E50;
+}
+.butright:hover{
+    background-color: white;
+    color: #2C3E50;
+}
   .butright{
     background-color: transparent;
     color: white;
@@ -73,7 +78,7 @@
     font-size: 30px;
     width: 50px;
     height: 50px;
-    left: 62px;
+    right: 68px;
     top: 43.5%;
     transform: translate(0, -50%);
 }
@@ -88,15 +93,16 @@
     font-size: 30px;
     width: 50px;
     height: 50px;
-    right: 55px;
+    left: 68px;
     top: 43.5%;
     transform: translate(0, -50%);
+    
     
 }
 
 .phones{
     position: absolute;
-    margin-left: 17.5%;
+    margin-left: 17.8%;
     width: 531px;
     height: 742px;
     margin-top: 0.8%;
@@ -110,7 +116,7 @@
 .phone2{
     position: absolute;
     height: 742px;
-    left: 150px;
+    left: 152px;
 }
 
 .but1{
@@ -128,4 +134,31 @@
     background-color: #1ABC9C;
     border: 0px;
     font-size: 18;
+}
+.circles{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    position: absolute;
+    top: 94%;
+    left: 48%;
+}
+.c1{
+    width: 100px;
+    background-color: white;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+}
+.c3{
+    /* box-sizing: border-box; */
+    border: white solid 2px;
+    background-color: transparent;
+}
+.space{
+    background-color: #ECF0F1;
+    height: 60px;
+    width: 100vw;
 }

@@ -1,0 +1,148 @@
+.task-3{
+    width: 100vw;
+    height: 758px;
+    background-color: #ECF0F1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 19.5vw;
+    padding-top: 2vh;
+    font-family: "Lato";
+}
+.feat{
+    position: absolute;
+    font-size: 36;
+    color: #34495E;
+    font-family: 'Lato';
+    line-height: 0px;
+}
+.buttons2{
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    float: right;
+    margin-bottom: -20px;
+    margin-top: 17px;
+}
+.buttons2 button{
+    width: 40px;
+    height: 35px;
+    font-size: 40px;
+    line-height: 0px;
+    background-color: transparent;
+    color: #A1B1BC;
+    border: #A1B1BC solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.content{
+    width: 1171.4px;
+    height: 48px;
+    line-height: 0px;
+}
+.contents>div{
+    width: 270px;
+    height: 562px;
+    border: 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+.ab{
+    font-size: 18;
+    font-weight: 900;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 0px;
+    height: 125px;
+    width: 100%;
+    border: 0.5px solid #E6E6E6;
+    margin-top: 370px;
+}
+
+.bl{
+    margin-left: 5px;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    width: 1171.4px;
+    margin-top: 50px;
+
+    height: 562px;
+}
+i{
+    width: 0.5px;
+    margin-right: 10px;
+}
+.a{
+    color: #1ABC9C;
+}
+
+.c{
+    margin: 0px;
+}
+.d{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.e{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.but1-1{
+    width: 105px;
+    height: 28;
+    margin: 10px;
+    margin-left: 20px;
+    background-color: #A1B1BC;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.but2-2{
+    width: 105px;
+    height: 28;
+    margin-top: 20px;
+    background-color: #A1B1BC;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.buts{
+    height: 12%;
+    border: 0.5px solid #E6E6E6;
+    margin-bottom: 0px;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px
+}
+
+.con2:hover > .con1 >.buts{
+    color: white;
+    background-color: #2C3E50;
+} 
+.con2:hover > .con1 > .ab{
+    color: white;
+    background-color: #2C3E50;
+} 
+.con2:hover > .con1 > .buts>.but1-1{
+    background-color: #1ABC9C;
+} 
+.con2:hover > .con1 > .buts>.but2-2{
+    background-color: transparent;
+    border: white solid 2px;
+} 
+.space2{
+    width: 100vw;
+    height: 100px;
+    /* background-color: #ECF0F1; */
+    background-color: white;
+}

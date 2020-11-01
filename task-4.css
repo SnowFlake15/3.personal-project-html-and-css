@@ -1,0 +1,64 @@
+.task4{
+    width: 100vw;
+    height: 139px;
+    position: relative;
+}
+.add{
+    background-color: #ECF0F1 transparent;
+    position: absolute;
+    width: 1170px;
+    height: 139px;
+    left: 19.5vw;
+    border: solid 1px #DFE8EA;
+    font-family: "Lato";
+    border-radius: 10px;
+}
+.bask{
+    width: 90px;
+    height: 90px;
+    border: 0px;
+    border-radius: 100px;
+    background-color: #1ABC9C;  
+    margin-top: 25px;
+    margin-left: 35px;
+    color: white; 
+    font-size: 27px;
+    padding: 30.5px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 43px;
+}
+.ps{
+    width: 750.92px;
+    float: left;
+    margin-top: 7px;
+    color: #34495E;
+}
+.p1{
+    font-size: 24;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.p2{
+    margin-top: 10px;
+    color: #A1B1BC;
+    font-size: 14;
+    line-height: 20px;
+}
+.bat{
+    width: 15.4%;
+    height: 43.2%;
+    background-color: #34495E;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    float: right;
+    margin-right: 42px;
+    margin-top: 41px;
+    border-radius: 10px;
+}
+.space3{
+    width: 100vw;
+    height: 50px;
+}

@@ -1,3 +1,25 @@
+body{
+    margin: 0;
+}
+.line{
+    width: 100vw;
+    height: 6px;
+    background-color: white;
+    display: grid;
+    grid-gap: 30px;
+    box-sizing: border-box;
+    padding-left: 680px;
+    order: 1;
+    grid-template-columns:  90px  60px 60px 60px 100px 100px 130px;
+    position: absolute;
+}
+.navbar{
+    order: 2;
+}
+.first{
+    grid-column: span 1;
+    background-color: #1ABC9C transparent;
+}
 .task-1{
     position: relative;
     height: 12.5vh;
@@ -6,7 +28,7 @@
 }
 .logo{
     margin-top: 40px;
-    margin-left: 19vw;
+    margin-left: 19.5vw;
     float: left;
     width: 46px;
     font-size: 23.8;
@@ -24,6 +46,82 @@ a{
     margin-top: 5.9vh;
     text-decoration: none;
     color: white;
-    margin-right: 1.9vw;
+    margin-right: 2.01vw;
     float: left;
+}
+.lasta{
+    margin-right: 1.2vw;
+}
+.basket{
+    background-color: #1ABC9C;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    margin-right: 0.5vw;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 5.5vh;
+}
+.search{
+    background-color: #2C3E50; 
+    width: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-left: 6.5px;
+    margin-top: 5.5vh;
+    border: white solid 2px;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-size: small;
+}
+.women:hover{
+    color: #1ABC9C;
+}
+.women:hover  ~ .line >.wombar{
+    background-color: #1ABC9C;
+}
+
+.man:hover{
+    color: #1ABC9C;
+}
+.man:hover  ~ .line >.manbar{
+    background-color: #1ABC9C;
+}
+
+.kids:hover{
+    color: #1ABC9C;
+}
+.kids:hover  ~ .line >.kidsbar{
+    background-color: #1ABC9C;
+}
+
+.sport:hover{
+    color: #1ABC9C;
+}
+.sport:hover  ~ .line >.sportbar{
+    background-color: #1ABC9C;
+}
+
+.sale:hover{
+    color: #1ABC9C;
+}
+.sale:hover  ~ .line >.salebar{
+    background-color: #1ABC9C;
+}
+
+.featured:hover{
+    color: #1ABC9C;
+}
+.featured:hover:hover  ~ .line >.featbar{
+    background-color: #1ABC9C;
+}
+
+.lasta:hover{
+    color: #1ABC9C;
+}
+.lasta:hover  ~ .line >.lastbar{
+    background-color: #1ABC9C;
 }
