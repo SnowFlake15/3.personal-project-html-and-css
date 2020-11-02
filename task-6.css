@@ -1,5 +1,4 @@
 .task6{
-    width: 100vw;
     height: 1274px;
     display: flex;
     flex-direction: column;
@@ -187,10 +186,7 @@ i{
     font-size: 24;
     margin-top: 15px;
 }
-.space5{
-    width: 100vw;
-    height: 83px;
-}
+
 .hovBut{
     color: white;
     background-color: #21C2F8;

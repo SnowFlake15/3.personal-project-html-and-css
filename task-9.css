@@ -1,0 +1,106 @@
+.task9{
+    height: 528px;
+    background-color: #ECF0F1;
+    display: grid;
+    grid-row-gap: 40px;
+    grid-column-gap: 30px;
+    padding-left: 19.5vw;
+    padding-right: 19vw;
+    padding-top: 10vh;
+    grid-template:  48px 255px/ 570px 570px;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+.task91{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+.why{
+    color: #34495E;
+    background-color: transparent;
+    font-size: 36;
+    font-weight: 300;
+}
+.services{
+    color: #34495E;
+    background-color: transparent;
+    font-family: "Lato";
+    font-size: 36;
+    font-weight: 300;
+}
+.lk{
+    float: right;
+    width: 40px;
+    height: 40px;
+    border: #E5E5E5 solid 1px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 16;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.whudiv1{
+    color: #A1B1BC;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    border: #E5E5E5 solid 1px;
+    background-color: white;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    font-size: 14;
+}
+.whudiv1:hover{
+    color: #1ABC9C;
+}
+.whudiv3{
+    color: #A1B1BC;
+    background-color: white;
+    width: 100%;
+    border: #E5E5E5 solid 1px;
+    height: 122px;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+}
+.whudiv3-1{
+    margin-top: 21px;
+    margin-right: 18px;
+    margin-left: 21px;
+    height: 80px;
+    width: 80px;
+    background-color: #CCCCCC;
+    float: left;
+}
+.whudiv3-2{
+    margin-left: 0px;
+    float: left;
+    width: 413px;
+    font-size: 14;
+    margin-top: 25px;
+    line-height: 23px;
+}
+.whudiv4{
+    box-sizing: border-box;
+    padding-left: 15px;
+    font-size: 14;
+    color: #A1B1BC;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    clear: left;
+    border: #E5E5E5 solid 1px;
+    background-color: white;
+}
+.whudiv2{
+    box-sizing: border-box;
+    padding-left: 15px;
+    font-size: 14;
+    color: #A1B1BC;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    border: #E5E5E5 solid 1px;
+    background-color: white;
+}

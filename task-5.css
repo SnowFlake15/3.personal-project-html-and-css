@@ -1,5 +1,4 @@
 .task5{
-    width: 100vw;
     height: 1066px;
     position: relative;
 }
@@ -135,7 +134,3 @@
 .small:hover > .small-3{
     background-color: #1E2A37;
 } 
-.space4{
-    width: 100vw;
-    height: 56px;
-}

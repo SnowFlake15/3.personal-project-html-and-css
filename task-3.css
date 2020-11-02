@@ -1,5 +1,4 @@
 .task-3{
-    width: 100vw;
     height: 758px;
     background-color: #ECF0F1;
     display: flex;
@@ -140,9 +139,3 @@ i{
     background-color: transparent;
     border: white solid 2px;
 } 
-.space2{
-    width: 100vw;
-    height: 100px;
-    /* background-color: #ECF0F1; */
-    background-color: white;
-}
