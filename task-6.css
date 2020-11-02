@@ -1,4 +1,193 @@
-.task-6{
+.task6{
     width: 100vw;
     height: 1274px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 19.5vw;
+    padding-top: 3vh;
+    font-family: "Lato";
+}
+.feat1{
+    position: absolute;
+    font-size: 36;
+    color: #34495E;
+    font-family: 'Lato';
+    line-height: 0px;
+}
+.buttons3{
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    float: right;
+    margin-bottom: -20px;
+    margin-top: 17px;
+}
+.buttons3 button{
+    width: 40px;
+    height: 35px;
+    font-size: 40px;
+    line-height: 0px;
+    background-color: transparent;
+    color: #A1B1BC;
+    border: #A1B1BC solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.recProds{
+    width: 1171.4px;
+    height: 48px;
+    line-height: 0px;
+}
+.bl2{
+    margin-left: 5px;
+}
+.prods{
+    margin-top: 50px;
+    width: 1172.4px;
+    height: 1154px;
+    display: grid;
+    grid-gap: 27px;
+    grid-template:  49% 49%/1fr 1fr 1fr 1fr;
+}
+.prod1{
+    grid-column: span 1;
+    grid-row: span 49%;
+    border: #E6E6E6 solid 1px;
+    border-radius: 10px;
+    
+}
+.prod1-1{
+    height: 50px;
+    width: 100%;
+    background-color: #E46960;
+}
+
+.contents>div{
+    width: 270px;
+    height: 562px;
+    border: 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+.aboutPh{
+    font-size: 18;
+    font-weight: 900;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 0px;
+    height: 125px;
+    width: 100%;
+    border: 0.5px solid #E6E6E6;
+}
+.prod1-3{
+    height: 370px;
+    width: 100%;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    width: 1171.4px;
+    margin-top: 50px;
+
+    height: 562px;
+}
+i{
+    width: 0.5px;
+    margin-right: 10px;
+}
+.a{
+    color: #1ABC9C;
+}
+
+.rating{
+    margin: 0px;
+    
+}
+.name{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.price{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.but1-1{
+    width: 105px;
+    height: 28;
+    margin: 10px;
+    margin-left: 20px;
+    background-color: #A1B1BC;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+.but2-2{
+    width: 105px;
+    height: 28;
+    margin-top: 20px;
+    background-color: #A1B1BC;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.buts{
+    height: 12%;
+    border: 0.5px solid #E6E6E6;
+    margin-bottom: 0px;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px
+}
+
+.prod1:hover > .prod1-2 >.buts{
+    color: white;
+    background-color: #2C3E50;
+    border-radius: 0px;
+} 
+.prod1:hover > .prod1-2 > .aboutPh{
+    color: white;
+    background-color: #2C3E50;
+} 
+.prod1:hover > .prod1-2 > .buts>.but1-1{
+    background-color: #1ABC9C;
+} 
+.prod1:hover > .prod1-2 > .buts>.but2-2{
+    background-color: transparent;
+    border: white solid 2px;
+} 
+.prod1:hover > .prod1-3 > .prod1-1{
+    background-color: #21C2F8;
+} 
+.space2{
+    width: 100vw;
+    height: 100px;
+    /* background-color: #ECF0F1; */
+    background-color: white;
+}
+.spec{
+    font-size: 15px;
+    float: left;
+    margin-left: 20px;
+    color: white;
+    font-family: "Lato";
+}
+.ico{
+    float: right;
+    margin-right: 40px;
+    color: white;
+    font-size: 24;
+    margin-top: 15px;
+}
+.space5{
+    width: 100vw;
+    height: 83px;
 }
