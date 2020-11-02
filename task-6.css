@@ -191,3 +191,48 @@ i{
     width: 100vw;
     height: 83px;
 }
+.hovBut{
+    color: white;
+    background-color: #21C2F8;
+    margin-left: 10px;
+    padding: 5px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.plushov{
+    color: white;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #2C3E50 transparent;
+    color:  transparent;
+}
+.hovBut:hover + .plushov{
+    background-color: #2C3E50;
+    color: white;
+} 
+/* .hovBut{
+    color: white;
+    background-color: #21C2F8;
+    margin-left: -130px;
+    padding: 5px;
+    border: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.plushov{
+    background-color: #2C3E50 transparent;
+    color:  transparent;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 0px;
+}
+.hovBut:hover + .plushov{
+    background-color: #2C3E50;
+    color: white;
+} */
