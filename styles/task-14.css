@@ -1,0 +1,13 @@
+.task14{
+    height: 710px;
+    width: 100%;
+    background-color: #222533;
+    position: relative;
+}
+.task14i{
+    color: #1ABC9C;
+    position: absolute;
+    top: 0%;
+    width: 30px;
+    font-size: 30;
+}

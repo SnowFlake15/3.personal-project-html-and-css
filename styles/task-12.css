@@ -8,21 +8,16 @@
     grid-column: span 1;
     grid-row: span 1;
     min-width: 480px;
-    padding: 77px 80px 60px;
-    /* box-sizing: border-box; */
+    padding: 77px 0px 50px 80px;
 }
 .task12div-1{
     background-color: #4E459A;
-
-    /* min-width: 30%; */
 }
 .task12div-2{
     background-color:#63D8FF;
-    /* min-width: 30%; */
 }
 .task12div-3{
     background-color: #E36968;
-    /* min-width: 30%; */
 }
 .minidiv{
     width: 480px;
