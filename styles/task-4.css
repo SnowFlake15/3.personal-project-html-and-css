@@ -1,4 +1,5 @@
 .task4{
+    padding-top: 97px;
     height: 139px;
     position: relative;
 }
@@ -12,7 +13,7 @@
     font-family: "Lato";
     border-radius: 10px;
 }
-.bask{
+.bask {
     width: 90px;
     height: 90px;
     border: 0px;
@@ -23,6 +24,7 @@
     color: white; 
     font-size: 27px;
     padding: 30.5px;
+    /* text-align: center; */
     box-sizing: border-box;
     float: left;
     margin-right: 43px;
@@ -51,7 +53,7 @@
     border: 0px;
     color: white;
     font-size: 15px;
-    font-weight: 900;
+    font-family: "Lato Black";
     float: right;
     margin-right: 42px;
     margin-top: 41px;

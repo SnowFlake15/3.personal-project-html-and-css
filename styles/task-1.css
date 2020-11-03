@@ -12,7 +12,9 @@ body{
     grid-template-columns:  90px  60px 60px 60px 100px 100px 130px;
     position: absolute;
 }
-
+.navbar{
+    order: 2;
+}
 .first{
     grid-column: span 1;
     background-color: #1ABC9C transparent;

@@ -1,10 +1,11 @@
 .task6{
-    height: 1274px;
+    height: 1280px;
     display: flex;
     flex-direction: column;
     padding-left: 19.5vw;
-    padding-top: 3vh;
+    padding-top: 68px;
     font-family: "Lato";
+    padding-bottom: 76px;
 }
 .feat1{
     position: absolute;
@@ -59,9 +60,13 @@
     grid-row: span 49%;
     border: #E6E6E6 solid 1px;
     border-radius: 10px;
+    border-bottom: none;
     
 }
 .prod1-1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0px;
     height: 50px;
     width: 100%;
     background-color: #E46960;
@@ -102,6 +107,7 @@ i{
 }
 .a{
     color: #1ABC9C;
+    font-size: 5px;
 }
 
 .rating{
@@ -110,42 +116,14 @@ i{
 }
 .name{
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 .price{
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 20px;
     font-weight: 900;
 }
-.but1-1{
-    width: 105px;
-    height: 28;
-    margin: 10px;
-    margin-left: 20px;
-    background-color: #A1B1BC;
-    border: 0px;
-    border-radius: 5px;
-    color: white;
-}
 
-.but2-2{
-    width: 105px;
-    height: 28;
-    margin-top: 20px;
-    background-color: #A1B1BC;
-    border: 0px;
-    border-radius: 5px;
-    color: white;
-    
-}
-
-.buts{
-    height: 12%;
-    border: 0.5px solid #E6E6E6;
-    margin-bottom: 0px;
-    border-top: none;
-    border-radius: 0px 0px 10px 10px
-}
 
 .prod1:hover > .prod1-2 >.buts{
     color: white;
@@ -163,9 +141,7 @@ i{
     background-color: transparent;
     border: white solid 2px;
 } 
-.prod1:hover > .prod1-3 > .prod1-1{
-    background-color: #21C2F8;
-} 
+ 
 .space2{
     width: 100vw;
     height: 100px;
@@ -191,44 +167,23 @@ i{
     color: white;
     background-color: #21C2F8;
     margin-left: 10px;
-    padding: 5px;
+    padding: 3px 8px;
     border: 0;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .plushov{
     color: white;
     padding: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 0;
+    border-radius: 4px;
+    margin-left: -5px;
     background-color: #2C3E50 transparent;
     color:  transparent;
 }
 .hovBut:hover + .plushov{
-    background-color: #2C3E50;
+    background-color: #21C2F8;
     color: white;
 } 
-/* .hovBut{
-    color: white;
-    background-color: #21C2F8;
-    margin-left: -130px;
-    padding: 5px;
-    border: 0;
-    padding-right: 10px;
-    padding-left: 10px;
-    border-radius: 5px;
-}
-.plushov{
-    background-color: #2C3E50 transparent;
-    color:  transparent;
-    padding: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 100px;
-    border-radius: 5px;
-    border: 0px;
-}
-.hovBut:hover + .plushov{
-    background-color: #2C3E50;
-    color: white;
-} */

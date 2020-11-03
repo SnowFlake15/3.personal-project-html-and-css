@@ -1,5 +1,5 @@
 .task9{
-    height: 528px;
+    height: 520px;
     background-color: #ECF0F1;
     display: grid;
     grid-row-gap: 40px;
@@ -51,9 +51,11 @@
     box-sizing: border-box;
     padding-left: 15px;
     font-size: 14;
+    font-family: "Lato";
 }
 .whudiv1:hover{
     color: #1ABC9C;
+    font-weight: 900;
 }
 .whudiv3{
     color: #A1B1BC;
@@ -63,6 +65,13 @@
     height: 122px;
     margin-bottom: 1px;
     box-sizing: border-box;
+    display: none;
+}
+
+.whudiv1:hover>.lk{
+    color: #A1B1BC;
+    font-weight: 400;
+    
 }
 .whudiv3-1{
     margin-top: 21px;
@@ -87,11 +96,22 @@
     font-size: 14;
     color: #A1B1BC;
     line-height: 40px;
+    margin-top: 2px;
     width: 100%;
     height: 40px;
     clear: left;
     border: #E5E5E5 solid 1px;
     background-color: white;
+}
+.whudiv4:hover{
+    color: #1ABC9C;
+    font-weight: 900;
+    
+}
+.whudiv4:hover>.lk{
+    color: #A1B1BC;
+    font-weight: 400;
+    
 }
 .whudiv2{
     box-sizing: border-box;
@@ -103,4 +123,89 @@
     height: 40px;
     border: #E5E5E5 solid 1px;
     background-color: white;
+    font-family: "Lato";
+}
+.whudiv2:active + .whudiv3{
+    display: block;
+}
+.whudiv2:hover{
+    color: #1ABC9C;
+    font-weight: 900;
+}
+.whudiv2:hover>.lk{
+    color: #A1B1BC;
+    font-weight: 400;
+    
+}
+.servicesdiv{
+    font-family: "Lato";
+    color: #A1B1BC;
+    font-size: 14;
+    background-color: white;
+    border: #E7EAEA 1px solid;
+}
+.servicesdiv2-1{
+    float: left;
+    width: 60px;
+    margin-bottom: 24px;
+}
+.servicesdiv2-2{
+    float: right;
+    height: 75.39px;
+    width: 448px;
+    margin-top: 0px;
+    line-height: 24px;
+}
+.servicesdiv2-3{
+    clear: left;
+    height: 70.39;
+    width: 100%;
+    margin: 0px;
+    line-height: 24px;
+}
+.servicesdiv1{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    /* border: #E7EAEA 1px solid; */
+    /* padding: 10px 20px; */
+    /* justify-content: space-between;
+    box-sizing: border-box; */
+}
+.servicesdiv1>div{
+    border: #E7EAEA 1px solid;
+    /* width: 147px; */
+    padding: 11px 16px;
+    box-sizing: border-box;
+}
+
+.servicesdiv1>div:active{
+    color: #1ABC9C;
+    font-weight: bold;
+    border-top: solid 3px #1ABC9C;
+    box-sizing: border-box;
+    padding: 8px 14px 8px 16px
+}
+.servicesdiv1>div:hover{
+    color: #34495E;
+    font-weight: bold;
+}
+.servicesdiv1>div:active{
+    color: #1ABC9C;
+    font-weight: bold;
+    border-top: solid 3px #1ABC9C;
+    box-sizing: border-box;
+    padding: 8px 14px 8px 16px
+}
+.whudiv2:active + .whudiv3{
+    display: block;
+}
+
+.servicesdiv2{
+    padding: 21px;
+    width: 534;
+    height: 161.48;
+}
+.wd{
+    width: 190px;
 }

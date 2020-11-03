@@ -1,0 +1,73 @@
+.task11{
+    width: 100%;
+    height: 615px;
+    background-color: white;
+    padding-top: 3.5%;
+    padding-left: 19.7%;
+    box-sizing: border-box;
+}
+.task11>.listss{
+    /* margin: auto; */
+    /* width: 1250px; */
+    height: 351.22px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+ul{
+    list-style: none;
+    width: 280px;
+    padding-left: 20px;
+  }
+  
+
+ul li {
+    /* padding: 10px 18px; */
+    border-bottom: 1px solid #ECF0F1;
+    color: #A1B1BC;
+    font-family: "Lato";
+    font-size: 14;
+    line-height: 39px;
+}
+ul i{
+    color: #1ABC9C;
+    margin-right: 20px;
+}
+ul li:last-child {
+    border-bottom: none;
+}
+.listHeaders{
+    font-size: 18;
+    font-family: "Lato";
+    font-weight: bold;
+    line-height: 50px;
+    border-bottom: 1px solid #A1B1BC;
+    margin-bottom: 5px;
+    color: #2C3E50;
+}
+.listSearch{
+    margin-top: 35px;
+    width: 1170px;
+    height: 60px;
+    border: 0;
+    position: relative;
+    background-color:rgb(236, 240, 241, 0.53);
+    border: 1px solid #EAEAEA;
+    /* margin: auto; */
+}
+.listSearch>input{
+    width: 97%;
+    height: 100%;
+    color: #A1B1BC;
+    padding: 20px;
+    background-color: transparent;
+    /* background-color: rgb(236, 240, 241, 0.53); */
+    border: 0;
+}
+#listSearchico{
+    margin-top: 20px;
+    width: 24px;
+    position: absolute;
+    font-size: 24px;
+    color: black;
+   
+}

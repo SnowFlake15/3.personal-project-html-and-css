@@ -1,5 +1,5 @@
 .task7{
-    height: 694px;
+    height: 691px;
     display: flex;
     flex-direction: column;
     padding-left: 19.5vw;
@@ -15,39 +15,16 @@
     font-family: 'Lato';
     line-height: 0px;
 }
-.buttons4{
-    width: 90px;
-    height: 35px;
-    border-radius: 5px;
-    float: right;
-    margin-bottom: -20px;
-    margin-top: 17px;
-}
-.bl31:hover{
+
+.bl:hover{
     background-color: #2C3E50;
     color: white;
 }
-.bl32:hover{
+.bl:hover{
     background-color: #2C3E50;
     color: white;
 }
-.buttons4 button{
-    width: 40px;
-    height: 35px;
-    font-size: 40px;
-    line-height: 0px;
-    background-color: transparent;
-    color: #A1B1BC;
-    border: #A1B1BC solid 2px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 30px;
-    padding: 0px;
-    padding-right: 10px;
-    box-sizing: border-box;
-    text-align: center;
-    padding-bottom: 20px;
-}
+
 .recNews{
     width: 1171.4px;
     height: 48px;
@@ -64,7 +41,7 @@
     grid-row: span 1;
 }
 .news{
-    margin-top: 50px;
+    margin-top: 53px;
     width: 1172.4px;
     height: 388px;
     display: grid;
@@ -81,7 +58,7 @@
     float: right;
     color: white;
     margin-top: -180;
-    margin-right: 6.5px;
+    margin-right: 5.5px;
 }
 .fa-caret-left:before{
     font-size: 24;
@@ -92,7 +69,7 @@
     height: 100%;
     background-color: #FFFFFF;
     float: right;
-    padding: 15px;
+    padding: 18px;
     box-sizing: border-box;
     padding-top: 0px;
 }
