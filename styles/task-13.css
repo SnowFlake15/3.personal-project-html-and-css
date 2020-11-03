@@ -1,0 +1,48 @@
+.task13{
+    height: 273px;
+    width: 100%;
+}
+.task13-1{
+    width: 100%;
+    height: 146px;
+    background-color: white;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.task13-2{
+    width: 100%;
+    height: 101px;
+    background-color: #1ABC9C;
+    display: flex;
+}
+.logos{
+    width: 1116px;
+    height: 85px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logos>img{
+    align-self: center;
+    width: 120px;
+}
+.task13-2-1{
+    width: 1120px;
+    height: 60px;
+    align-self: center;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 24;
+    color: white;
+    margin: auto;
+}
+.task13-2-1>span{
+    white-space: pre-wrap;
+    font-style: "Lato";
+    font-size: 36;
+    align-self: center;
+}
+/* .task13-2-1>span>image{
+    width: 50px;
+} */
