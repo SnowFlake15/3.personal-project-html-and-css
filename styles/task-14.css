@@ -3,6 +3,7 @@
     width: 100%;
     background-color: #222533;
     position: relative;
+    
 }
 .task14i{
     color: #1ABC9C;
@@ -10,4 +11,13 @@
     top: 0%;
     width: 30px;
     font-size: 30;
+    line-height: 40px;
+}
+.fa-caret-down:before {
+    content: "\f0d7";
+    line-height: 40px;
+    font-size: 60;
+    position: absolute;
+    left: 944px;
+    top: -19;
 }

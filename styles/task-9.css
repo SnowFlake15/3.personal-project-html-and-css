@@ -10,6 +10,7 @@
     grid-template:  48px 255px/ 570px 570px;
     box-sizing: border-box;
     font-family: "Lato";
+    width: 100%;
 }
 .task91{
     grid-column: span 1;

@@ -1,11 +1,12 @@
 .task7{
-    height: 691px;
+    height: 698px;
     display: flex;
     flex-direction: column;
     padding-left: 19.5vw;
     padding-top: 8vh;
     font-family: "Lato";
     box-sizing: border-box;
+    width: 100%;
     background-color: #ECF0F1;
 }
 .feat2{
